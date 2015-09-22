@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="First Name:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/firstNameLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="8dp" />
+    <EditText
+        p1:inputType="textPersonName"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/firstNameLabel"
+        p1:id="@+id/firstNameEditText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Last Name:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/firstNameEditText"
+        p1:id="@+id/lastNameLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="8dp" />
+    <EditText
+        p1:inputType="textPersonName"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lastNameLabel"
+        p1:id="@+id/lastNameLabelText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Company:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/lastNameLabelText"
+        p1:id="@+id/companyLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="15dp" />
+    <EditText
+        p1:inputType="text"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/companyLabel"
+        p1:id="@+id/companyEditText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Job Title:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/companyEditText"
+        p1:id="@+id/titleLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="15dp" />
+    <EditText
+        p1:inputType="text"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/titleLabel"
+        p1:id="@+id/titleEditText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Phone:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/titleEditText"
+        p1:id="@+id/phoneLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="15dp" />
+    <EditText
+        p1:inputType="phone"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/phoneLabel"
+        p1:id="@+id/phoneEditText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Email:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/phoneEditText"
+        p1:id="@+id/emailLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="15dp" />
+    <EditText
+        p1:inputType="textWebEmailAddress"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/emailLabel"
+        p1:id="@+id/emailEditText"
+        p1:background="@android:color/white"
+        p1:paddingLeft="15dp"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp" />
+    <TextView
+        p1:text="Notes:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/emailEditText"
+        p1:id="@+id/notesLabel"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:paddingTop="15dp" />
+    <EditText
+        p1:inputType="textMultiLine"
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/notesLabel"
+        p1:id="@+id/notesEditText"
+        p1:background="@android:color/white"
+        p1:textColor="@android:color/black"
+        p1:layout_marginLeft="15dp"
+        p1:minLines="3" />
+    <Button
+        p1:background="@drawable/green_button"
+        p1:text="Save"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/save"
+        style="@style/button_text"
+        p1:layout_below="@id/notesEditText"
+        p1:paddingBottom="8dp"
+        p1:paddingLeft="8dp"
+        p1:paddingRight="8dp"
+        p1:layout_marginTop="50dp"
+        p1:layout_marginStart="50dp"
+        p1:layout_centerHorizontal="true" />
+</RelativeLayout>
